@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    border: 2px solid gray;
+    padding: 50px; 
+    margin: 50px; 
+    background: linear-gradient(45deg,rgb(22, 19, 19),rgb(109, 102, 102));
+}
+input{
+    font-size: 25px;
+    background-color: black;
+    text-align: right;
+    cursor: pointer;
+    padding: 5px;
+    color: aliceblue;
+    /* margin: 10px; */
+}
+input::placeholder{
+    color: antiquewhite;
+}
+button{
+    padding: 10px;
+    margin: 10px;
+    font-size: large;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(39, 35, 35,0.5);
+    color: aliceblue;
+    cursor: pointer;
+}
+.operator{
+    color: green;
+}
